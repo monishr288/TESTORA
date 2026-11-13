@@ -1,0 +1,8 @@
+{
+  "headless": true,
+  "browser": "chrome",
+  "timeout": 10,
+  "base_url": "https://www.saucedemo.com/",
+  "retries": 0,
+  "verbose": true
+}

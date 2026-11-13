@@ -1,0 +1,178 @@
+{
+  "run_id": "run_20261113_220129",
+  "timestamp": "2026-11-13 22:01:29",
+  "exit_code": 0,
+  "status": "passed",
+  "duration_seconds": 89.724,
+  "summary": {
+    "total": 18,
+    "passed": 18,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0
+  },
+  "tests": [
+    {
+      "id": "Pytest_Tests/test_cart.py::TestCart::test_add_single_product_to_cart",
+      "name": "test_add_single_product_to_cart",
+      "file": "Pytest_Tests\\test_cart.py",
+      "outcome": "passed",
+      "duration": 2.286,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_cart.py::TestCart::test_add_multiple_products_to_cart",
+      "name": "test_add_multiple_products_to_cart",
+      "file": "Pytest_Tests\\test_cart.py",
+      "outcome": "passed",
+      "duration": 0.143,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_cart.py::TestCart::test_remove_product_from_products_page",
+      "name": "test_remove_product_from_products_page",
+      "file": "Pytest_Tests\\test_cart.py",
+      "outcome": "passed",
+      "duration": 2.198,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_cart.py::TestCart::test_cart_page_item_verification_and_removal",
+      "name": "test_cart_page_item_verification_and_removal",
+      "file": "Pytest_Tests\\test_cart.py",
+      "outcome": "passed",
+      "duration": 12.341,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_first_name",
+      "name": "test_checkout_form_empty_first_name",
+      "file": "Pytest_Tests\\test_checkout.py",
+      "outcome": "passed",
+      "duration": 0.259,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_last_name",
+      "name": "test_checkout_form_empty_last_name",
+      "file": "Pytest_Tests\\test_checkout.py",
+      "outcome": "passed",
+      "duration": 0.223,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_postal_code",
+      "name": "test_checkout_form_empty_postal_code",
+      "file": "Pytest_Tests\\test_checkout.py",
+      "outcome": "passed",
+      "duration": 0.203,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_checkout.py::TestCheckout::test_successful_end_to_end_checkout",
+      "name": "test_successful_end_to_end_checkout",
+      "file": "Pytest_Tests\\test_checkout.py",
+      "outcome": "passed",
+      "duration": 0.434,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_login.py::TestLogin::test_valid_login",
+      "name": "test_valid_login",
+      "file": "Pytest_Tests\\test_login.py",
+      "outcome": "passed",
+      "duration": 1.274,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_login.py::TestLogin::test_valid_user_logout",
+      "name": "test_valid_user_logout",
+      "file": "Pytest_Tests\\test_login.py",
+      "outcome": "passed",
+      "duration": 0.966,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_invalid_username",
+      "name": "test_invalid_username",
+      "file": "Pytest_Tests\\test_login_scenarios.py",
+      "outcome": "passed",
+      "duration": 0.859,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_invalid_password",
+      "name": "test_invalid_password",
+      "file": "Pytest_Tests\\test_login_scenarios.py",
+      "outcome": "passed",
+      "duration": 1.432,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_empty_username",
+      "name": "test_empty_username",
+      "file": "Pytest_Tests\\test_login_scenarios.py",
+      "outcome": "passed",
+      "duration": 1.249,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_empty_password",
+      "name": "test_empty_password",
+      "file": "Pytest_Tests\\test_login_scenarios.py",
+      "outcome": "passed",
+      "duration": 1.981,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_locked_out_user",
+      "name": "test_locked_out_user",
+      "file": "Pytest_Tests\\test_login_scenarios.py",
+      "outcome": "passed",
+      "duration": 0.878,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_products.py::TestProducts::test_product_page_loading_and_items_display",
+      "name": "test_product_page_loading_and_items_display",
+      "file": "Pytest_Tests\\test_products.py",
+      "outcome": "passed",
+      "duration": 0.162,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_products.py::TestProducts::test_product_sorting_price_low_to_high",
+      "name": "test_product_sorting_price_low_to_high",
+      "file": "Pytest_Tests\\test_products.py",
+      "outcome": "passed",
+      "duration": 0.177,
+      "error_message": null,
+      "screenshot": null
+    },
+    {
+      "id": "Pytest_Tests/test_products.py::TestProducts::test_product_sorting_name_z_to_a",
+      "name": "test_product_sorting_name_z_to_a",
+      "file": "Pytest_Tests\\test_products.py",
+      "outcome": "passed",
+      "duration": 0.171,
+      "error_message": null,
+      "screenshot": null
+    }
+  ]
+}

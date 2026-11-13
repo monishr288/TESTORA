@@ -1,0 +1,459 @@
+[
+  {
+    "run_id": "run_20261113_215958",
+    "timestamp": "2026-11-13 21:59:58",
+    "exit_code": 0,
+    "status": "passed",
+    "duration_seconds": 91.586,
+    "summary": {
+      "total": 18,
+      "passed": 18,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0
+    },
+    "tests": [
+      {
+        "id": "Pytest_Tests/test_cart.py::TestCart::test_add_single_product_to_cart",
+        "name": "test_add_single_product_to_cart",
+        "file": "Pytest_Tests\\test_cart.py",
+        "outcome": "passed",
+        "duration": 2.286,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_cart.py::TestCart::test_add_multiple_products_to_cart",
+        "name": "test_add_multiple_products_to_cart",
+        "file": "Pytest_Tests\\test_cart.py",
+        "outcome": "passed",
+        "duration": 0.143,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_cart.py::TestCart::test_remove_product_from_products_page",
+        "name": "test_remove_product_from_products_page",
+        "file": "Pytest_Tests\\test_cart.py",
+        "outcome": "passed",
+        "duration": 2.198,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_cart.py::TestCart::test_cart_page_item_verification_and_removal",
+        "name": "test_cart_page_item_verification_and_removal",
+        "file": "Pytest_Tests\\test_cart.py",
+        "outcome": "passed",
+        "duration": 12.341,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_first_name",
+        "name": "test_checkout_form_empty_first_name",
+        "file": "Pytest_Tests\\test_checkout.py",
+        "outcome": "passed",
+        "duration": 0.259,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_last_name",
+        "name": "test_checkout_form_empty_last_name",
+        "file": "Pytest_Tests\\test_checkout.py",
+        "outcome": "passed",
+        "duration": 0.223,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_postal_code",
+        "name": "test_checkout_form_empty_postal_code",
+        "file": "Pytest_Tests\\test_checkout.py",
+        "outcome": "passed",
+        "duration": 0.203,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_checkout.py::TestCheckout::test_successful_end_to_end_checkout",
+        "name": "test_successful_end_to_end_checkout",
+        "file": "Pytest_Tests\\test_checkout.py",
+        "outcome": "passed",
+        "duration": 0.434,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login.py::TestLogin::test_valid_login",
+        "name": "test_valid_login",
+        "file": "Pytest_Tests\\test_login.py",
+        "outcome": "passed",
+        "duration": 1.274,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login.py::TestLogin::test_valid_user_logout",
+        "name": "test_valid_user_logout",
+        "file": "Pytest_Tests\\test_login.py",
+        "outcome": "passed",
+        "duration": 0.966,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_invalid_username",
+        "name": "test_invalid_username",
+        "file": "Pytest_Tests\\test_login_scenarios.py",
+        "outcome": "passed",
+        "duration": 0.859,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_invalid_password",
+        "name": "test_invalid_password",
+        "file": "Pytest_Tests\\test_login_scenarios.py",
+        "outcome": "passed",
+        "duration": 1.432,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_empty_username",
+        "name": "test_empty_username",
+        "file": "Pytest_Tests\\test_login_scenarios.py",
+        "outcome": "passed",
+        "duration": 1.249,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_empty_password",
+        "name": "test_empty_password",
+        "file": "Pytest_Tests\\test_login_scenarios.py",
+        "outcome": "passed",
+        "duration": 1.981,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_locked_out_user",
+        "name": "test_locked_out_user",
+        "file": "Pytest_Tests\\test_login_scenarios.py",
+        "outcome": "passed",
+        "duration": 0.878,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_products.py::TestProducts::test_product_page_loading_and_items_display",
+        "name": "test_product_page_loading_and_items_display",
+        "file": "Pytest_Tests\\test_products.py",
+        "outcome": "passed",
+        "duration": 0.162,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_products.py::TestProducts::test_product_sorting_price_low_to_high",
+        "name": "test_product_sorting_price_low_to_high",
+        "file": "Pytest_Tests\\test_products.py",
+        "outcome": "passed",
+        "duration": 0.177,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_products.py::TestProducts::test_product_sorting_name_z_to_a",
+        "name": "test_product_sorting_name_z_to_a",
+        "file": "Pytest_Tests\\test_products.py",
+        "outcome": "passed",
+        "duration": 0.171,
+        "error_message": null,
+        "screenshot": null
+      }
+    ],
+    "target": "All Suites (18 Tests)",
+    "headless": true,
+    "browser": "chrome",
+    "html_report": "/reports/report.html",
+    "archived_html_report": "/reports/report_run_20261113_215958.html",
+    "stdout_summary": "st_checkout.py::TestCheckout::test_checkout_form_empty_first_name PASSED [ 27%]\nPytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_last_name PASSED [ 33%]\nPytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_postal_code PASSED [ 38%]\nPytest_Tests/test_checkout.py::TestCheckout::test_successful_end_to_end_checkout PASSED [ 44%]\nPytest_Tests/test_login.py::TestLogin::test_valid_login PASSED           [ 50%]\nPytest_Tests/test_login.py::TestLogin::test_valid_user_logout PASSED     [ 55%]\nPytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_invalid_username PASSED [ 61%]\nPytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_invalid_password PASSED [ 66%]\nPytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_empty_username PASSED [ 72%]\nPytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_empty_password PASSED [ 77%]\nPytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_locked_out_user PASSED [ 83%]\nPytest_Tests/test_products.py::TestProducts::test_product_page_loading_and_items_display PASSED [ 88%]\nPytest_Tests/test_products.py::TestProducts::test_product_sorting_price_low_to_high PASSED [ 94%]\nPytest_Tests/test_products.py::TestProducts::test_product_sorting_name_z_to_a PASSED [100%]\n\n- Generated html report: file:///C:/Users/LENOVO/Downloads/MONISH/projects/testing/Ecommerce-Testing-Project/Test_Reports/report.html -\n======================== 18 passed in 89.71s (0:01:29) ========================\n"
+  },
+  {
+    "run_id": "run_20261113_214135",
+    "timestamp": "2026-11-13 21:41:35",
+    "exit_code": 1,
+    "status": "failed",
+    "duration_seconds": 146.742,
+    "summary": {
+      "total": 18,
+      "passed": 13,
+      "failed": 5,
+      "skipped": 0,
+      "errors": 0
+    },
+    "tests": [
+      {
+        "id": "Pytest_Tests/test_cart.py::TestCart::test_add_single_product_to_cart",
+        "name": "test_add_single_product_to_cart",
+        "file": "Pytest_Tests\\test_cart.py",
+        "outcome": "failed",
+        "duration": 9.353,
+        "error_message": "self = <test_cart.TestCart object at 0x0000020289A0B4D0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9cc20839114a1e19047dee4cf8374c9f\")>\n\n    def test_add_single_product_to_cart(self, driver):\n        \"\"\"\n        Verify that clicking 'Add to cart' on a product increases the cart badge count to 1\n        and the button switches to 'Remove'.\n        \"\"\"\n        products_page = ProductsPage(driver)\n    \n        # 1. Cart badge initially 0\n        assert products_page.get_cart_badge_count(timeout=1) == 0, \"Cart should initially be empty\"\n    \n        # 2. Add first product\n        added_product = products_page.add_first_product_to_cart()\n        assert added_product != \"\", \"Expected at least one product in catalog\"\n    \n        # 3. Assert button changed to Remove and badge count is updated to 1\n>       assert products_page.is_remove_button_displayed(added_product), f\"Expected Remove button for {added_product}\"\nE       AssertionError: Expected Remove button for Sauce Labs Backpack\nE       assert False\nE        +  where False = is_remove_button_displayed('Sauce Labs Backpack')\nE        +    where is_remove_button_displayed = <Pytest_Tests.pages.products_page.ProductsPage object at 0x0000020289FDFED0>.is_remove_button_displayed\n\nPytest_Tests\\test_cart.py:39: AssertionError",
+        "screenshot": "C:\\Users\\LENOVO\\Downloads\\MONISH\\projects\\testing\\Ecommerce-Testing-Project\\Screenshots\\failure_test_add_single_product_to_cart_20261113_214152.png"
+      },
+      {
+        "id": "Pytest_Tests/test_cart.py::TestCart::test_add_multiple_products_to_cart",
+        "name": "test_add_multiple_products_to_cart",
+        "file": "Pytest_Tests\\test_cart.py",
+        "outcome": "passed",
+        "duration": 0.161,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_cart.py::TestCart::test_remove_product_from_products_page",
+        "name": "test_remove_product_from_products_page",
+        "file": "Pytest_Tests\\test_cart.py",
+        "outcome": "passed",
+        "duration": 2.2,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_cart.py::TestCart::test_cart_page_item_verification_and_removal",
+        "name": "test_cart_page_item_verification_and_removal",
+        "file": "Pytest_Tests\\test_cart.py",
+        "outcome": "passed",
+        "duration": 12.421,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_first_name",
+        "name": "test_checkout_form_empty_first_name",
+        "file": "Pytest_Tests\\test_checkout.py",
+        "outcome": "failed",
+        "duration": 12.443,
+        "error_message": "self = <test_checkout.TestCheckout object at 0x0000020289FDDF90>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"2c7dce513163e0691b8d9890b97035b0\")>\n\n    def test_checkout_form_empty_first_name(self, driver):\n        \"\"\"\n        Verify that submitting the checkout form without a first name\n        triggers 'Error: First Name is required'.\n        \"\"\"\n        checkout_page = CheckoutPage(driver)\n        checkout_page.enter_customer_info(first_name=\"\", last_name=\"Tester\", postal_code=\"12345\")\n        checkout_page.click_continue()\n    \n>       assert checkout_page.is_error_displayed(), \"Expected validation error for empty first name\"\nE       AssertionError: Expected validation error for empty first name\nE       assert False\nE        +  where False = is_error_displayed()\nE        +    where is_error_displayed = <Pytest_Tests.pages.checkout_page.CheckoutPage object at 0x000002028B421810>.is_error_displayed\n\nPytest_Tests\\test_checkout.py:44: AssertionError",
+        "screenshot": "C:\\Users\\LENOVO\\Downloads\\MONISH\\projects\\testing\\Ecommerce-Testing-Project\\Screenshots\\failure_test_checkout_form_empty_first_name_20261113_214236.png"
+      },
+      {
+        "id": "Pytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_last_name",
+        "name": "test_checkout_form_empty_last_name",
+        "file": "Pytest_Tests\\test_checkout.py",
+        "outcome": "failed",
+        "duration": 12.454,
+        "error_message": "self = <test_checkout.TestCheckout object at 0x0000020289FDE210>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"0bca8980d11f9b6466100e945dcbf022\")>\n\n    def test_checkout_form_empty_last_name(self, driver):\n        \"\"\"\n        Verify that submitting the checkout form without a last name\n        triggers 'Error: Last Name is required'.\n        \"\"\"\n        checkout_page = CheckoutPage(driver)\n        checkout_page.enter_customer_info(first_name=\"Monish\", last_name=\"\", postal_code=\"12345\")\n        checkout_page.click_continue()\n    \n>       assert checkout_page.is_error_displayed(), \"Expected validation error for empty last name\"\nE       AssertionError: Expected validation error for empty last name\nE       assert False\nE        +  where False = is_error_displayed()\nE        +    where is_error_displayed = <Pytest_Tests.pages.checkout_page.CheckoutPage object at 0x000002028A0BBBB0>.is_error_displayed\n\nPytest_Tests\\test_checkout.py:57: AssertionError",
+        "screenshot": "C:\\Users\\LENOVO\\Downloads\\MONISH\\projects\\testing\\Ecommerce-Testing-Project\\Screenshots\\failure_test_checkout_form_empty_last_name_20261113_214252.png"
+      },
+      {
+        "id": "Pytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_postal_code",
+        "name": "test_checkout_form_empty_postal_code",
+        "file": "Pytest_Tests\\test_checkout.py",
+        "outcome": "failed",
+        "duration": 12.41,
+        "error_message": "self = <test_checkout.TestCheckout object at 0x0000020289FBA9E0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"70c26b4dd4fceacb38a6fdb190b812c2\")>\n\n    def test_checkout_form_empty_postal_code(self, driver):\n        \"\"\"\n        Verify that submitting the checkout form without a postal code\n        triggers 'Error: Postal Code is required'.\n        \"\"\"\n        checkout_page = CheckoutPage(driver)\n        checkout_page.enter_customer_info(first_name=\"Monish\", last_name=\"Tester\", postal_code=\"\")\n        checkout_page.click_continue()\n    \n>       assert checkout_page.is_error_displayed(), \"Expected validation error for empty postal code\"\nE       AssertionError: Expected validation error for empty postal code\nE       assert False\nE        +  where False = is_error_displayed()\nE        +    where is_error_displayed = <Pytest_Tests.pages.checkout_page.CheckoutPage object at 0x000002028B4297F0>.is_error_displayed\n\nPytest_Tests\\test_checkout.py:70: AssertionError",
+        "screenshot": "C:\\Users\\LENOVO\\Downloads\\MONISH\\projects\\testing\\Ecommerce-Testing-Project\\Screenshots\\failure_test_checkout_form_empty_postal_code_20261113_214309.png"
+      },
+      {
+        "id": "Pytest_Tests/test_checkout.py::TestCheckout::test_successful_end_to_end_checkout",
+        "name": "test_successful_end_to_end_checkout",
+        "file": "Pytest_Tests\\test_checkout.py",
+        "outcome": "failed",
+        "duration": 5.362,
+        "error_message": "self = <test_checkout.TestCheckout object at 0x0000020289FBAC40>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"f2ce2e8eff431d0ccd02589b7348b869\")>\n\n    def test_successful_end_to_end_checkout(self, driver):\n        \"\"\"\n        Verify the entire checkout journey:\n        Submitting valid customer information -> Reviewing Order Overview -> Completing order\n        -> Asserting final confirmation message 'Thank you for your order!'.\n        \"\"\"\n        checkout_page = CheckoutPage(driver)\n    \n        # 1. Fill valid customer information\n        checkout_page.enter_customer_info(first_name=\"Monish\", last_name=\"QA Engineer\", postal_code=\"94016\")\n        checkout_page.click_continue()\n    \n        # 2. Assert Step 2 (Overview) loaded\n>       assert checkout_page.is_step_two_loaded(), \"Expected checkout overview page (Step 2) to load\"\nE       AssertionError: Expected checkout overview page (Step 2) to load\nE       assert False\nE        +  where False = is_step_two_loaded()\nE        +    where is_step_two_loaded = <Pytest_Tests.pages.checkout_page.CheckoutPage object at 0x000002028B461480>.is_step_two_loaded\n\nPytest_Tests\\test_checkout.py:87: AssertionError",
+        "screenshot": "C:\\Users\\LENOVO\\Downloads\\MONISH\\projects\\testing\\Ecommerce-Testing-Project\\Screenshots\\failure_test_successful_end_to_end_checkout_20261113_214319.png"
+      },
+      {
+        "id": "Pytest_Tests/test_login.py::TestLogin::test_valid_login",
+        "name": "test_valid_login",
+        "file": "Pytest_Tests\\test_login.py",
+        "outcome": "passed",
+        "duration": 1.326,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login.py::TestLogin::test_valid_user_logout",
+        "name": "test_valid_user_logout",
+        "file": "Pytest_Tests\\test_login.py",
+        "outcome": "passed",
+        "duration": 1.489,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_invalid_username",
+        "name": "test_invalid_username",
+        "file": "Pytest_Tests\\test_login_scenarios.py",
+        "outcome": "passed",
+        "duration": 0.925,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_invalid_password",
+        "name": "test_invalid_password",
+        "file": "Pytest_Tests\\test_login_scenarios.py",
+        "outcome": "passed",
+        "duration": 1.052,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_empty_username",
+        "name": "test_empty_username",
+        "file": "Pytest_Tests\\test_login_scenarios.py",
+        "outcome": "passed",
+        "duration": 0.912,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_empty_password",
+        "name": "test_empty_password",
+        "file": "Pytest_Tests\\test_login_scenarios.py",
+        "outcome": "passed",
+        "duration": 0.865,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login_scenarios.py::TestLoginScenarios::test_locked_out_user",
+        "name": "test_locked_out_user",
+        "file": "Pytest_Tests\\test_login_scenarios.py",
+        "outcome": "passed",
+        "duration": 1.151,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_products.py::TestProducts::test_product_page_loading_and_items_display",
+        "name": "test_product_page_loading_and_items_display",
+        "file": "Pytest_Tests\\test_products.py",
+        "outcome": "passed",
+        "duration": 0.154,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_products.py::TestProducts::test_product_sorting_price_low_to_high",
+        "name": "test_product_sorting_price_low_to_high",
+        "file": "Pytest_Tests\\test_products.py",
+        "outcome": "passed",
+        "duration": 0.133,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_products.py::TestProducts::test_product_sorting_name_z_to_a",
+        "name": "test_product_sorting_name_z_to_a",
+        "file": "Pytest_Tests\\test_products.py",
+        "outcome": "passed",
+        "duration": 0.136,
+        "error_message": null,
+        "screenshot": null
+      }
+    ],
+    "target": "All Suites (18 Tests)",
+    "headless": true,
+    "browser": "chrome",
+    "html_report": "/reports/report.html",
+    "archived_html_report": "/reports/report_run_20261113_214135.html",
+    "stdout_summary": "_continue()\n    \n        # 2. Assert Step 2 (Overview) loaded\n>       assert checkout_page.is_step_two_loaded(), \"Expected checkout overview page (Step 2) to load\"\nE       AssertionError: Expected checkout overview page (Step 2) to load\nE       assert False\nE        +  where False = is_step_two_loaded()\nE        +    where is_step_two_loaded = <Pytest_Tests.pages.checkout_page.CheckoutPage object at 0x000002028B461480>.is_step_two_loaded\n\nPytest_Tests\\test_checkout.py:87: AssertionError\n-------------------------- Captured stdout teardown ---------------------------\n\n[Screenshot Captured] Saved failure screenshot to: C:\\Users\\LENOVO\\Downloads\\MONISH\\projects\\testing\\Ecommerce-Testing-Project\\Screenshots\\failure_test_successful_end_to_end_checkout_20261113_214319.png\n- Generated html report: file:///C:/Users/LENOVO/Downloads/MONISH/projects/testing/Ecommerce-Testing-Project/Test_Reports/report.html -\n=========================== short test summary info ===========================\nFAILED Pytest_Tests/test_cart.py::TestCart::test_add_single_product_to_cart\nFAILED Pytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_first_name\nFAILED Pytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_last_name\nFAILED Pytest_Tests/test_checkout.py::TestCheckout::test_checkout_form_empty_postal_code\nFAILED Pytest_Tests/test_checkout.py::TestCheckout::test_successful_end_to_end_checkout\n================== 5 failed, 13 passed in 144.26s (0:02:24) ===================\n"
+  },
+  {
+    "run_id": "run_20261113_205848",
+    "timestamp": "2026-11-13 20:58:48",
+    "exit_code": 0,
+    "status": "passed",
+    "duration_seconds": 11.463,
+    "summary": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0
+    },
+    "tests": [
+      {
+        "id": "Pytest_Tests/test_login.py::TestLogin::test_valid_login",
+        "name": "test_valid_login",
+        "file": "Pytest_Tests\\test_login.py",
+        "outcome": "passed",
+        "duration": 0.991,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_login.py::TestLogin::test_valid_user_logout",
+        "name": "test_valid_user_logout",
+        "file": "Pytest_Tests\\test_login.py",
+        "outcome": "passed",
+        "duration": 1.776,
+        "error_message": null,
+        "screenshot": null
+      }
+    ],
+    "target": "test_login.py",
+    "headless": true,
+    "browser": "chrome",
+    "html_report": "/reports/report.html",
+    "archived_html_report": "/reports/report_run_20261113_205848.html",
+    "stdout_summary": "============================= test session starts =============================\nplatform win32 -- Python 3.14.3, pytest-9.2.0, pluggy-1.7.0 -- C:\\Users\\LENOVO\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe\ncachedir: .pytest_cache\nmetadata: {'Python': '3.14.3', 'Platform': 'Windows-11-10.0.26300-SP0', 'Packages': {'pytest': '9.2.0', 'pluggy': '1.7.0'}, 'Plugins': {'anyio': '4.15.1', 'platformdirs': '4.12.4', 'html': '4.2.0', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\\\Program Files\\\\Java\\\\jdk-21.0.10'}\nrootdir: C:\\Users\\LENOVO\\Downloads\\MONISH\\projects\\testing\\Ecommerce-Testing-Project\nplugins: anyio-4.15.1, platformdirs-4.12.4, html-4.2.0, metadata-3.1.1\ncollecting ... collected 2 items\n\nPytest_Tests/test_login.py::TestLogin::test_valid_login PASSED           [ 50%]\nPytest_Tests/test_login.py::TestLogin::test_valid_user_logout PASSED     [100%]\n\n- Generated html report: file:///C:/Users/LENOVO/Downloads/MONISH/projects/testing/Ecommerce-Testing-Project/Test_Reports/report.html -\n============================== 2 passed in 9.10s ==============================\n"
+  },
+  {
+    "run_id": "run_20261113_202331",
+    "timestamp": "2026-11-13 20:23:31",
+    "exit_code": 0,
+    "status": "passed",
+    "duration_seconds": 14.266,
+    "summary": {
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0
+    },
+    "tests": [
+      {
+        "id": "Pytest_Tests/test_products.py::TestProducts::test_product_page_loading_and_items_display",
+        "name": "test_product_page_loading_and_items_display",
+        "file": "Pytest_Tests\\test_products.py",
+        "outcome": "passed",
+        "duration": 0.167,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_products.py::TestProducts::test_product_sorting_price_low_to_high",
+        "name": "test_product_sorting_price_low_to_high",
+        "file": "Pytest_Tests\\test_products.py",
+        "outcome": "passed",
+        "duration": 0.18,
+        "error_message": null,
+        "screenshot": null
+      },
+      {
+        "id": "Pytest_Tests/test_products.py::TestProducts::test_product_sorting_name_z_to_a",
+        "name": "test_product_sorting_name_z_to_a",
+        "file": "Pytest_Tests\\test_products.py",
+        "outcome": "passed",
+        "duration": 0.189,
+        "error_message": null,
+        "screenshot": null
+      }
+    ],
+    "target": "test_products.py",
+    "headless": true,
+    "browser": "chrome",
+    "html_report": "/reports/report.html",
+    "archived_html_report": "/reports/report_run_20261113_202331.html",
+    "stdout_summary": "============================= test session starts =============================\nplatform win32 -- Python 3.14.3, pytest-9.2.0, pluggy-1.7.0 -- C:\\Users\\LENOVO\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe\ncachedir: .pytest_cache\nmetadata: {'Python': '3.14.3', 'Platform': 'Windows-11-10.0.26300-SP0', 'Packages': {'pytest': '9.2.0', 'pluggy': '1.7.0'}, 'Plugins': {'anyio': '4.15.1', 'platformdirs': '4.12.4', 'html': '4.2.0', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\\\Program Files\\\\Java\\\\jdk-21.0.10'}\nrootdir: C:\\Users\\LENOVO\\Downloads\\MONISH\\projects\\testing\\Ecommerce-Testing-Project\nplugins: anyio-4.15.1, platformdirs-4.12.4, html-4.2.0, metadata-3.1.1\ncollecting ... collected 3 items\n\nPytest_Tests/test_products.py::TestProducts::test_product_page_loading_and_items_display PASSED [ 33%]\nPytest_Tests/test_products.py::TestProducts::test_product_sorting_price_low_to_high PASSED [ 66%]\nPytest_Tests/test_products.py::TestProducts::test_product_sorting_name_z_to_a PASSED [100%]\n\n- Generated html report: file:///C:/Users/LENOVO/Downloads/MONISH/projects/testing/Ecommerce-Testing-Project/Test_Reports/report.html -\n============================= 3 passed in 12.73s ==============================\n"
+  }
+]
